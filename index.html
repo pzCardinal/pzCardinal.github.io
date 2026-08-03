@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Peize Wang's academic homepage, including research interests, publications, news, and contact information."
+    />
+    <title>Peize Wang</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="nav-wrap">
+        <a class="brand" href="#home" aria-label="Back to home">Peize Wang</a>
+        <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">
+          <span class="sr-only">Open navigation menu</span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+          <a class="active" href="#home">Home</a>
+          <a href="#impact">Impact</a>
+          <a href="#news">News</a>
+          <a href="#publications">Papers</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-shell" id="home">
+      <aside class="profile-panel" aria-label="Profile">
+        <div class="portrait-shell">
+          <img src="assets/profile.jpg" alt="Peize Wang" />
+        </div>
+
+        <h1>Peize Wang</h1>
+        <p class="profile-role">Institute of Statistics and Big Data</p>
+        <p class="profile-org">Renmin University of China</p>
+
+        <ul class="profile-links" aria-label="Profile links">
+          <li>
+            <span class="icon" aria-hidden="true">&#8982;</span>
+            <span>Beijing, China</span>
+          </li>
+          <li>
+            <span class="icon" aria-hidden="true">&#9993;</span>
+            <a href="mailto:wpz2024@ruc.edu.cn">Email</a>
+          </li>
+          <li>
+            <span class="icon" aria-hidden="true">&#9679;</span>
+            <a href="https://github.com/pzCardinal" target="_blank" rel="noreferrer">GitHub</a>
+          </li>
+          <li>
+            <span class="icon" aria-hidden="true">&#9670;</span>
+            <a href="https://scholar.google.com/citations?user=H5fPps4AAAAJ&amp;hl=zh-CN" target="_blank" rel="noreferrer">Google Scholar</a>
+          </li>
+          <li>
+            <span class="icon" aria-hidden="true">&#9678;</span>
+            <a href="https://orcid.org/0009-0007-2304-3344" target="_blank" rel="noreferrer">ORCID</a>
+          </li>
+        </ul>
+      </aside>
+
+      <div class="content">
+        <section class="section intro" aria-labelledby="about-heading">
+          <p class="eyebrow">About</p>
+          <h2 id="about-heading">About Me</h2>
+          <p>
+            Welcome to my homepage! I am Peize Wang at the Institute of Statistics and Big Data,
+            Renmin University of China.
+          </p>
+          <p>
+            My research interests focus on optimal transport and sufficient dimension reduction,
+            with a particular interest in kernel methods for nonlinear representation learning.
+          </p>
+        </section>
+
+        <section class="section impact" id="impact" aria-labelledby="impact-heading">
+          <div class="section-heading-row">
+            <h2 id="impact-heading">Industry Impact</h2>
+            <span>Huawei</span>
+          </div>
+          <p class="section-lead">
+            At Huawei, I worked on statistical tools for data-quality diagnosis and
+            model-free predictability assessment in industrial tabular-data tasks.
+          </p>
+          <div class="impact-list">
+            <article>
+              <h3>Model-Free Error and Accuracy Bounds</h3>
+              <p>
+                Promoted the landing of Fano-inversion based tools for estimating
+                error bounds and accuracy ceilings, helping teams distinguish data
+                information limits from model-selection bottlenecks before expensive
+                model tuning.
+              </p>
+            </article>
+            <article>
+              <h3>Data-Driven Feature Screening</h3>
+              <p>
+                Built model-free feature-selection workflows based on multivariate
+                mutual information, POTD, and Conditional Wasserstein Dependency
+                Measure (CWDM), targeting high-dimensional, noisy, and redundant
+                industrial data under memory constraints.
+              </p>
+            </article>
+            <article>
+              <h3>Industrial Diagnostics</h3>
+              <p>
+                Supported early validation on arc-fault, NVH, and liquid-leakage
+                fault diagnosis scenarios, turning statistical upper-bound estimation
+                and feature-ranking methods into reusable evaluation pipelines.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="news" aria-labelledby="news-heading">
+          <div class="section-heading-row">
+            <h2 id="news-heading">Recent News</h2>
+            <span>Updates</span>
+          </div>
+          <ol class="timeline">
+            <li>
+              <time datetime="2026-07-31">2026.07.31</time>
+              <div>
+                <h3>Zijin Summit at Huawei Huang Danian Chasiwu</h3>
+                <p>
+                  I participated in the <em>Zijin Summit</em> young scholars'
+                  paper sharing session at Huawei Huang Danian Chasiwu.
+                </p>
+              </div>
+            </li>
+            <li>
+              <time datetime="2026-06">2026.06</time>
+              <div>
+                <h3>Two Papers Accepted by STAI-X</h3>
+                <p>
+                  Our papers <em>KPOTD: Kernel Principal Optimal Transport Directions for
+                  Nonlinear Sufficient Dimension Reduction</em> and <em>SSP-Ensemble: A
+                  Sufficient Subspace Projection Ensemble for Multiclass Classification</em>
+                  were accepted by the inaugural STAI-X conference.
+                </p>
+              </div>
+            </li>
+          </ol>
+        </section>
+
+        <section class="section selected-papers" id="publications" aria-labelledby="publications-heading">
+          <div class="section-heading-row">
+            <h2 id="publications-heading">Selected Papers</h2>
+            <span>STAI-X 2026</span>
+          </div>
+          <div class="paper-list">
+            <article class="paper-entry">
+              <div class="paper-cover">
+                <div class="paper-venue">STAI-X</div>
+                <img
+                  class="paper-thumbnail"
+                  src="assets/kpotd-thumbnail.png"
+                  alt="KPOTD latent representation comparison"
+                />
+              </div>
+              <div class="paper-details">
+                <h3>
+                  KPOTD: Kernel Principal Optimal Transport Directions for Nonlinear
+                  Sufficient Dimension Reduction
+                </h3>
+                <p class="authors"><strong>Peize Wang</strong>, Wenhao Jiang, Cheng Meng<sup>*</sup></p>
+                <p class="venue">STAI-X, 2026</p>
+                <p>
+                  Kernelizes optimal-transport displacement covariance in an RKHS to recover
+                  nonlinear sufficient dimension reduction structures.
+                </p>
+                <div class="paper-links">
+                  <a href="https://cheng-bdal.github.io/files/STAI-X_KPOTD.pdf" target="_blank" rel="noreferrer">PDF</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="paper-entry">
+              <div class="paper-cover">
+                <div class="paper-venue">STAI-X</div>
+                <img
+                  class="paper-thumbnail"
+                  src="assets/ssp-ensemble-thumbnail.png"
+                  alt="SSP-Ensemble framework overview"
+                />
+              </div>
+              <div class="paper-details">
+                <h3>SSP-Ensemble: A Sufficient Subspace Projection Ensemble for Multiclass Classification</h3>
+                <p class="authors">Jiafeng Chen, Cheng Meng, <strong>Peize Wang</strong>, Jingyi Zhang, Jun Zhu<sup>*</sup></p>
+                <p class="venue">STAI-X, 2026</p>
+                <p>
+                  Builds a supervised POTD-based ensemble by viewing multiclass classification
+                  through class-pair sufficient subspace projections.
+                </p>
+                <div class="paper-links">
+                  <a href="https://cheng-bdal.github.io/files/STAI-X_SSP-Ensemble.pdf" target="_blank" rel="noreferrer">PDF</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section contact" id="contact" aria-labelledby="contact-heading">
+          <h2 id="contact-heading">Contact</h2>
+          <p>Please feel free to contact me via email.</p>
+          <a class="email-link" href="mailto:wpz2024@ruc.edu.cn">wpz2024@ruc.edu.cn</a>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; <span id="year"></span> Peize Wang &middot; Hosted on GitHub Pages</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
